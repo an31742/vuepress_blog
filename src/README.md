@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: 简介
+title: 个人主页
 heroImage: 
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
