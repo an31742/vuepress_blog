@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.50" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://vuepress-theme-hope-docs-demo.netlify.app/demo/disable.html"><meta property="og:site_name" content="前端知识随笔"><meta property="og:title" content="布局与功能禁用"><meta property="og:description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。 本页面就是一个示例，禁用了如下功能: 导航栏 侧边栏 路径导航 页面信息 贡献者 编辑此页链接 更新时间 上一篇/下一篇 链接 评论 页脚 返回顶部按钮"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2024-06-23T10:03:41.000Z"><meta property="article:author" content="小安"><meta property="article:tag" content="禁用"><meta property="article:modified_time" content="2024-06-23T10:03:41.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"布局与功能禁用","image":[""],"dateModified":"2024-06-23T10:03:41.000Z","author":[{"@type":"Person","name":"小安","url":"https://an31742.github.io"}]}</script><title>布局与功能禁用 | 前端知识随笔</title><meta name="description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。 本页面就是一个示例，禁用了如下功能: 导航栏 侧边栏 路径导航 页面信息 贡献者 编辑此页链接 更新时间 上一篇/下一篇 链接 评论 页脚 返回顶部按钮">
+    <link rel="preload" href="/assets/style-C6G1EAyw.css" as="style"><link rel="stylesheet" href="/assets/style-C6G1EAyw.css">
+    <link rel="modulepreload" href="/assets/app-DkOTOYOC.js"><link rel="modulepreload" href="/assets/disable.html-s0Fb4kYu.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    <link rel="prefetch" href="/assets/index.html-D_PaiN3M.js" as="script"><link rel="prefetch" href="/assets/portfolio.html-BLzsPDn2.js" as="script"><link rel="prefetch" href="/assets/index.html-D7Wbvf5e.js" as="script"><link rel="prefetch" href="/assets/encrypt.html-DWs3vXGw.js" as="script"><link rel="prefetch" href="/assets/layout.html-DeVbIX-E.js" as="script"><link rel="prefetch" href="/assets/markdown.html-CFxViT4w.js" as="script"><link rel="prefetch" href="/assets/page.html-D3am_INe.js" as="script"><link rel="prefetch" href="/assets/index.html-BSUggB73.js" as="script"><link rel="prefetch" href="/assets/git.html-BMGhcJid.js" as="script"><link rel="prefetch" href="/assets/node.html-CfdwjT0E.js" as="script"><link rel="prefetch" href="/assets/typeScript.html-DuD5rR3d.js" as="script"><link rel="prefetch" href="/assets/设计模式.html-RHngGlHG.js" as="script"><link rel="prefetch" href="/assets/跨域.html-iJUFpSzS.js" as="script"><link rel="prefetch" href="/assets/ES6.html-B_RARkLx.js" as="script"><link rel="prefetch" href="/assets/event事件.html-DUGqWuKi.js" as="script"><link rel="prefetch" href="/assets/js运行机制.html-BJrmtrgp.js" as="script"><link rel="prefetch" href="/assets/创建对象.html-CHv222OB.js" as="script"><link rel="prefetch" href="/assets/原型链.html-BNOIrrmy.js" as="script"><link rel="prefetch" href="/assets/垃圾回收机制.html-ClGWGAmv.js" as="script"><link rel="prefetch" href="/assets/字符串.html-vtQ2yxby.js" as="script"><link rel="prefetch" href="/assets/数组方法.html-BuUGaJqg.js" as="script"><link rel="prefetch" href="/assets/错误捕获.html-Lxr5nztf.js" as="script"><link rel="prefetch" href="/assets/闭包.html-OlzAltwq.js" as="script"><link rel="prefetch" href="/assets/css3.html-DTvgGt1-.js" as="script"><link rel="prefetch" href="/assets/布局.html-Dwu6jWsT.js" as="script"><link rel="prefetch" href="/assets/html-css-render.html-oIjeF6p3.js" as="script"><link rel="prefetch" href="/assets/html.html-BsjVbHAZ.js" as="script"><link rel="prefetch" href="/assets/Object-defineProperty.html-CkcgMApP.js" as="script"><link rel="prefetch" href="/assets/Vue3.html-CHTH2aI7.js" as="script"><link rel="prefetch" href="/assets/vue.html-4mctwmVr.js" as="script"><link rel="prefetch" href="/assets/deploy.html-DSPfSMuc.js" as="script"><link rel="prefetch" href="/assets/性能优化.html-DmO2jhg9.js" as="script"><link rel="prefetch" href="/assets/缓存.html-t0Cx0l7O.js" as="script"><link rel="prefetch" href="/assets/JS笔试题.html-Cx_mcXPW.js" as="script"><link rel="prefetch" href="/assets/手写面试题.html-DwcEYZgI.js" as="script"><link rel="prefetch" href="/assets/笔试题 每日3_1.html-CWXeYNne.js" as="script"><link rel="prefetch" href="/assets/算法基础.html-BUe-H9T0.js" as="script"><link rel="prefetch" href="/assets/简历陈述.html-BK4GQmCS.js" as="script"><link rel="prefetch" href="/assets/经典问题.html-O20gaYIu.js" as="script"><link rel="prefetch" href="/assets/404.html-BoPqGqtR.js" as="script"><link rel="prefetch" href="/assets/index.html-D7xwsuoV.js" as="script"><link rel="prefetch" href="/assets/index.html-DQPk2MqJ.js" as="script"><link rel="prefetch" href="/assets/index.html-CcKElB69.js" as="script"><link rel="prefetch" href="/assets/index.html-Bb0Qq3xu.js" as="script"><link rel="prefetch" href="/assets/index.html-DskWwEm8.js" as="script"><link rel="prefetch" href="/assets/index.html-CN2Uk8nw.js" as="script"><link rel="prefetch" href="/assets/index.html-DsQFzFna.js" as="script"><link rel="prefetch" href="/assets/giscus-D-fkNSKD.js" as="script"><link rel="prefetch" href="/assets/photoswipe.esm-GXRgw7eJ.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><div class="theme-container no-navbar no-sidebar external-link-icon has-toc"><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar"><!----><ul class="vp-sidebar-links"></ul><!----></aside><!--[--><main id="main-content" class="vp-page"><!--[--><!----><!----><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><span class="font-icon icon fa-fw fa-sm fas fa-gears" style=""></span>布局与功能禁用</h1><!----><hr></div><!----><!----><div class="theme-hope-content"><p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p><!-- more --><p>本页面就是一个示例，禁用了如下功能:</p><ul><li>导航栏</li><li>侧边栏</li><li>路径导航</li><li>页面信息</li><li>贡献者</li><li>编辑此页链接</li><li>更新时间</li><li>上一篇/下一篇 链接</li><li>评论</li><li>页脚</li><li>返回顶部按钮</li></ul></div><!----><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><div id="vp-comment" class="giscus-wrapper input-top" style="display:none;"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" preserveAspectRatio="xMidYMid" viewBox="0 0 100 100"><circle cx="28" cy="75" r="11" fill="currentColor"><animate attributeName="fill-opacity" begin="0s" dur="1s" keyTimes="0;0.2;1" repeatCount="indefinite" values="0;1;1"></animate></circle><path fill="none" stroke="#88baf0" stroke-width="10" d="M28 47a28 28 0 0 1 28 28"><animate attributeName="stroke-opacity" begin="0.1s" dur="1s" keyTimes="0;0.2;1" repeatCount="indefinite" values="0;1;1"></animate></path><path fill="none" stroke="#88baf0" stroke-width="10" d="M28 25a50 50 0 0 1 50 50"><animate attributeName="stroke-opacity" begin="0.2s" dur="1s" keyTimes="0;0.2;1" repeatCount="indefinite" values="0;1;1"></animate></path></svg></div><!----><!--]--></main><!--]--><!----></div><!--]--><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-DkOTOYOC.js" defer></script>
+  </body>
+</html>
