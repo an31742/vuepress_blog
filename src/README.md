@@ -18,14 +18,14 @@ footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VueP
 ---
 
 ####  初衷
-- 一开始慢慢积累了一些知识发现使用原来的[博客](http://an31742.github.io) 有两点局限性 
+- 一开始慢慢积累了一些知识发现使用原来的博客有两点局限性 
   - 使用hexo条理不是那么清晰
   - 随着工作的年限的增多知识积累的越来越多了考虑其他博客
 
 #### 项目
 
-- 项目地址 https://github.com/an31742/vuepress_blog
-- 官网地址
+- [项目地址](https://github.com/an31742/vuepress_blog )
+- [官网地址](https://an31742.github.io/)
 
 #### 学习交流
 

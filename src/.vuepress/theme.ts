@@ -8,14 +8,14 @@ export default hopeTheme({
 
   author: {
     name: "小安",
-    url: "https://an31742.github.io",
+    url: "https://github.com/an31742",
   },
 
   iconAssets: "fontawesome-with-brands",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "https://github.com/an31742/an31742.github.io",
+  repo: "https://github.com/an31742",
 
   docsDir: "src",
 

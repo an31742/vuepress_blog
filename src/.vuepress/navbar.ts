@@ -4,10 +4,10 @@ export default navbar([
   "/",
   "/portfolio",
   {
-    text: "博客",
+    text: "即刻",
     icon: "person-chalkboard",
-    link: "https://an31742.github.io/",
+    link: "https://web.okjike.com/me",
   },
   "/frontEndInterview/",
-  "/demo/",
+  // "/demo/",
 ]);

@@ -14,7 +14,7 @@ export default sidebar({
       children: "structure",
     },
   ],
-  '/demo/': "structure",
+  // '/demo/': "structure",
 
 
 });
