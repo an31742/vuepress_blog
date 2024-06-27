@@ -17,7 +17,7 @@ git add -A
 git commit -m 'deploy'
 
 # 如果你想要部署到 https://USERNAME.github.io
-git push -f git@github.com:an31742/an31742.github.io.git main
+git push -f https://github.com/an31742/an31742.github.io.git main
 
 # 如果发布到 https://USERNAME.github.io/<REPO>  REPO=github上的项目
 # git push -f git@github.com:USERNAME/<REPO>.git master:gh-pages
