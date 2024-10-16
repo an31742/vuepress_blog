@@ -1,12 +1,14 @@
 ---
-title: js数组及对象数组取交集，并集，补集的方法H
+title: vue3实现多层级的动态表单增减
 icon: circle-info
 ---
 
 
 说点废话，最近在做一个重构的项目。我感觉学不到东西，业务也就那样。这个简单的我感觉要是之前的我。我就很快做出来了，这次我做了相对久了。很难受。吐槽一下吧，这个项目代码经过很多人说是屎山也不为过。但是搭建确实做的很好，应该仔细研究学习一下。
 ##### 上成品
-![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d80c70db8bc7487f861a837081ee1379~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1616&h=1114&s=188706&e=png&b=f9f9f9#id=VzazV&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none)
+
+![](./image/image.png)
+
 #### 数据格式
 这次做的久很大一部分原因是我直接就做了，并没有考虑数据，在做着做着就会出现很问题。开发很重要一点先定义数据，再根据数据生成相应的页面。
 错误的原因是一开始取巧了打算利用subOrdershoppingList 里面有的数据作为shoppingShow 展示的数据在这里所以在显示开发的时候总有些问题。没有设计数据格式，打算利用subOrdershoppingLis反而浪费了很多时间。

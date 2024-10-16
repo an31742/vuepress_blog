@@ -1,10 +1,10 @@
 ---
-title: js数组及对象数组取交集，并集，补集的方法H
+title: vue3多层级复选框
 icon: circle-info
 ---
 
+! [vue3多层级复选框](./image/imageCheck.png)
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/626ab4bd18ff432ab6dfd36b1508961a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1276&h=624&s=257813&e=png&b=ffffff#id=B46j7&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none)![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/626ab4bd18ff432ab6dfd36b1508961a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1276&h=624&s=257813&e=png&b=ffffff#id=UmEE6&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none)![image.png](https://cdn.nlark.com/yuque/0/2024/png/28199172/1719451560804-0c79b641-2585-4d67-a9d2-74b4451e35bf.png#averageHue=%23ececec&clientId=u91b3db70-3763-4&from=paste&height=312&id=ubf12bea5&originHeight=624&originWidth=1276&originalType=binary&ratio=2&rotation=0&showTitle=false&size=79858&status=done&style=none&taskId=udc744229-a799-4c70-9173-4863a93ac62&title=&width=638)
 ### 需求
 当点击左侧复选框时，右侧的全部复选框会被选中，当右侧部分复选框被选中时，左侧会显示半选状态。上方有一个全选复选框，当左侧所有复选框都被选中时，全选按钮会显示选中状态，当左侧复选框部分选中时，全选按钮会显示半选状态。
 ### 代码
