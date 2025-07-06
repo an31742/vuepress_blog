@@ -1,4 +1,4 @@
-import { navbar } from "vuepress-theme-hope";
+import { navbar } from "vuepress-theme-hope"
 
 export default navbar([
   // "/",
@@ -11,14 +11,19 @@ export default navbar([
     icon: "person-chalkboard",
     link: "/businessProblem/",
   },
-   {
+  // --- AUTO-DAILY-REPORT-START ---
+  
+  {
     text: '30天学习计划日报',
-    link: '/30days-advanced-frontend/daily-reports/', // 指向日报目录的 README 或索引页
+    children: [
+      
+    ]
   },
+  // --- AUTO-DAILY-REPORT-END ---
   {
     text: "即刻",
     icon: "person-chalkboard",
     link: "https://web.okjike.com/me",
   },
   // "/demo/",
-]);
+])

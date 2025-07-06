@@ -1,0 +1,60 @@
+name: Auto Daily Report
+
+on:
+  schedule:
+    # 每天北京时间 9:05（UTC+0 1:05）自动触发
+    - cron: '5 1 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  daily_report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 生成日报
+        id: gen_report
+        run: |
+          DATE=$(date '+%Y-%m-%d')
+          START_DAY="2025-06-17"
+          DAY_NUM=$(( ($(date +%s) - $(date -d "$START_DAY" +%s)) / 86400 + 1 ))
+          REPORT_DIR="docs/30days-advanced-frontend/daily-reports"
+          mkdir -p "$REPORT_DIR"
+          cat << EOF > $REPORT_DIR/day-$DAY_NUM.md
+          # Day $DAY_NUM 学习日报（$DATE）
+
+          ## 核心任务
+          - 请根据计划表填写今日主攻内容（技术点/项目/输出物）
+
+          ## 技术细节
+          - 请补充实现要点、难点、参考资源链接等
+
+          ## 今日产出
+          - 代码/文档/博客/演示链接等
+
+          ## 遇到困难
+          - 请记录卡点和突破方法
+
+          ## 今日收获/感悟
+          - 总结亮点、心得
+
+          > 自动生成，如有遗漏请补充
+          EOF
+
+      - name: 自动注入日报菜单到导航栏
+        run: |
+          node -v
+          npm install
+          node scripts/genNavbar.js
+
+      - name: 提交日报和navbar.ts
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: |
+            docs/30days-advanced-frontend/daily-reports/
+            .vuepress/navbar.ts
+          message: "chore: 自动生成 Day ${{ steps.gen_report.outputs.DAY_NUM }} 学习日报并刷新导航"
