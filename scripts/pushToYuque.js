@@ -97,3 +97,4 @@ async function pushDailyReports() {
   await createRepoIfNotExist()
   await pushDailyReports()
 })()
+console.log("因为没有token需要300块钱的超级会员暂时不同步语雀")
