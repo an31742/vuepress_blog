@@ -19,9 +19,10 @@ export default navbar([
     link: "https://next-vite-delta.vercel.app/#/home",
   },
   // --- AUTO-DAILY-REPORT-END ---
-  // {
-  //   text: "即刻",
-  //   icon: "person-chalkboard",
-  //   link: "https://web.okjike.com/me",
-  // },
+  {
+    text: "即刻",
+    icon: "person-chalkboard",
+    link: "https://web.okjike.com/me",
+  },
+  // "/demo/",
 ])
