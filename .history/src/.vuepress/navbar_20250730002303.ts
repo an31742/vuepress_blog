@@ -20,8 +20,8 @@ export default navbar([
   },
   // --- AUTO-DAILY-REPORT-END ---
   {
-    text: "语雀",
+    text: "yu",
     icon: "person-chalkboard",
-    link: "https://www.yuque.com/an31742",
+    link: "https://web.okjike.com/me",
   },
 ])

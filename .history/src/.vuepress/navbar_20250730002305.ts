@@ -22,6 +22,6 @@ export default navbar([
   {
     text: "语雀",
     icon: "person-chalkboard",
-    link: "https://www.yuque.com/an31742",
+    link: "https://web.okjike.com/me",
   },
 ])
