@@ -14,11 +14,6 @@ export default navbar([
     icon: "book",
     link: "/frontWriteCode/",
   },
-  {
-    text: "面试必考",
-    icon: "book",
-    link: "/interview/",
-  },
   // "/businessProblem/",
   {
     text: "前端业务",

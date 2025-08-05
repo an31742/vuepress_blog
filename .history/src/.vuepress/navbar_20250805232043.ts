@@ -9,15 +9,10 @@ export default navbar([
     icon: "book",
     link: "/frontEndInterview/",
   },
-  {
+    {
     text: "前端手写题",
     icon: "book",
-    link: "/frontWriteCode/",
-  },
-  {
-    text: "面试必考",
-    icon: "book",
-    link: "/interview/",
+    link: "/frontEndInterview/手写题",
   },
   // "/businessProblem/",
   {
@@ -25,7 +20,7 @@ export default navbar([
     icon: "person-chalkboard",
     link: "/businessProblem/",
   },
-
+   
   {
     text: "个人全栈项目",
     icon: "person-chalkboard",

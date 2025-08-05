@@ -3,29 +3,15 @@ import { navbar } from "vuepress-theme-hope"
 export default navbar([
   // "/",
   "/portfolio",
-
-  {
-    text: "前端面试指南",
-    icon: "book",
-    link: "/frontEndInterview/",
-  },
-  {
-    text: "前端手写题",
-    icon: "book",
-    link: "/frontWriteCode/",
-  },
-  {
-    text: "面试必考",
-    icon: "book",
-    link: "/interview/",
-  },
+  "/frontEndInterview/",
   // "/businessProblem/",
+
   {
     text: "前端业务",
     icon: "person-chalkboard",
     link: "/businessProblem/",
   },
-
+   
   {
     text: "个人全栈项目",
     icon: "person-chalkboard",

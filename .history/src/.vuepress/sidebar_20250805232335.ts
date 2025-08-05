@@ -16,6 +16,5 @@ export default sidebar({
   ],
   // '/demo/': "structure",
   "/businessProblem/": "structure",
-  "/frontWriteCode/": "structure",
-  "/interview/": "structure",
+  "/businessProblem/": "structure",
 })

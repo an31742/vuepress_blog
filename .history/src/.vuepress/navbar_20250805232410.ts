@@ -15,9 +15,9 @@ export default navbar([
     link: "/frontWriteCode/",
   },
   {
-    text: "面试必考",
+    text: "前端手写题",
     icon: "book",
-    link: "/interview/",
+    link: "/frontWriteCode/",
   },
   // "/businessProblem/",
   {
