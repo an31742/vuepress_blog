@@ -1,4 +1,9 @@
+---
+title: React Todo List - 全栈开发指南
+icon: circle-info
+---
 
+React Todo List - 全栈开发指南
 📋 项目概述
 这是一个基于 React + Node.js + MongoDB 的全栈学习项目，包含用户认证、Todo管理、图书管理、协作看板、文件上传等多个实用功能模块。项目采用 monorepo 架构，集成了现代前后端开发的最佳实践。
 🏗️ 项目架构
