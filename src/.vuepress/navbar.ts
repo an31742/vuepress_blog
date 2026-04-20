@@ -3,7 +3,6 @@ import { navbar } from "vuepress-theme-hope"
 export default navbar([
   // "/",
   "/portfolio",
-
   {
     text: "前端手写题",
     icon: "book",
@@ -14,7 +13,6 @@ export default navbar([
     icon: "book",
     link: "/InterviewExperience/",
   },
-  // "/businessProblem/",
   {
     text: "前端业务",
     icon: "person-chalkboard",
