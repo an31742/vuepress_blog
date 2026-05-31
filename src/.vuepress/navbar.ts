@@ -19,12 +19,6 @@ export default navbar([
     link: "/businessProblem/",
   },
   {
-    text: "⚛️ React",
-    icon: "book",
-    link: "/businessProblem/React学习笔记/",
-  },
-
-  {
     text: "个人全栈项目",
     icon: "person-chalkboard",
     link: "https://next-vite-delta.vercel.app/#/home",
