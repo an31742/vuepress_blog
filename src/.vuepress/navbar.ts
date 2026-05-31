@@ -18,6 +18,11 @@ export default navbar([
     icon: "person-chalkboard",
     link: "/businessProblem/",
   },
+  {
+    text: "⚛️ React",
+    icon: "book",
+    link: "/businessProblem/React学习笔记/",
+  },
 
   {
     text: "个人全栈项目",
