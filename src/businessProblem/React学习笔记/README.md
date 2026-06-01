@@ -21,3 +21,5 @@ icon: react
 | Day 3 | useEffect | [死循环与 cleanup](day03-useeffect.md) |
 | Day 4 | useRef | [不触发渲染的"变量保险箱"](day04-useref.md) |
 | Day 5 | useMemo & useCallback & React.memo | [性能优化三件套](day05-usememo-usecallback.md) |
+| Day 8 | Fiber 架构 | [Fiber 树遍历 · 双缓冲 · 时间切片](day08-fiber.md) |
+| Day 8 总结 | Fiber 梳理 | [概念串联与面试表达](day08-fiber-summary.md) |

@@ -25,6 +25,9 @@ export default hopeTheme({
   // 侧边栏
   sidebar,
 
+  // 侧边栏排序: README 优先 → order 字段 → 按文件名数值
+  sidebarSorter: ["readme", "order", "filename"],
+
   // 页脚
   footer: "默认页脚",
   displayFooter: true,
